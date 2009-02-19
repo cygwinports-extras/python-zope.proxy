@@ -1,0 +1,4 @@
+category: Python
+requires: cygwin python python-setuptools python-zope-interface
+sdesc: "Zope object-proxy library"
+ldesc: "Zope object-proxy library"

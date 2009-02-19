@@ -1,0 +1,87 @@
+python-zope-proxy
+------------------------------------------
+Zope modular object proxy library
+
+Runtime requirements:
+  cygwin-1.5.24-2
+  python-2.5.1-3
+  python-setuptools-0.6c6-1
+  python-zope-interface-3.4.1-1
+
+Build requirements:
+  cygwin-1.5.24-2
+  cygport-0.3.5-1
+  python-2.5.1-3
+  python-setuptools-0.6c6-1
+
+Canonical website:
+  http://cheeseshop.python.org/pypi/zope.event
+
+Canonical download:
+  http://cheeseshop.python.org/packages/source/z/zope.event/
+
+-------------------------------------------
+
+Build instructions:
+  unpack python-zope-proxy-3.4.0-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./python-zope-proxy-3.4.0-X.cygport all
+
+This will create:
+  /usr/src/python-zope-proxy-3.4.0-X-src.tar.bz2
+  /usr/src/python-zope-proxy-3.4.0-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/include/python2.5/zope.proxy/proxy.h
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5-nspkg.pth
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5.egg-info/PKG-INFO
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5.egg-info/SOURCES.txt
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5.egg-info/dependency_links.txt
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5.egg-info/namespace_packages.txt
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5.egg-info/not-zip-safe
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5.egg-info/requires.txt
+  /usr/lib/python2.5/site-packages/zope.proxy-3.4.0-py2.5.egg-info/top_level.txt
+  /usr/lib/python2.5/site-packages/zope/proxy/DEPENDENCIES.cfg
+  /usr/lib/python2.5/site-packages/zope/proxy/SETUP.cfg
+  /usr/lib/python2.5/site-packages/zope/proxy/__init__.py
+  /usr/lib/python2.5/site-packages/zope/proxy/__init__.pyc
+  /usr/lib/python2.5/site-packages/zope/proxy/__init__.pyo
+  /usr/lib/python2.5/site-packages/zope/proxy/_zope_proxy_proxy.c
+  /usr/lib/python2.5/site-packages/zope/proxy/_zope_proxy_proxy.dll
+  /usr/lib/python2.5/site-packages/zope/proxy/decorator.py
+  /usr/lib/python2.5/site-packages/zope/proxy/decorator.pyc
+  /usr/lib/python2.5/site-packages/zope/proxy/decorator.pyo
+  /usr/lib/python2.5/site-packages/zope/proxy/interfaces.py
+  /usr/lib/python2.5/site-packages/zope/proxy/interfaces.pyc
+  /usr/lib/python2.5/site-packages/zope/proxy/interfaces.pyo
+  /usr/lib/python2.5/site-packages/zope/proxy/proxy.h
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/__init__.py
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/__init__.pyc
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/__init__.pyo
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/test_decorator.py
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/test_decorator.pyc
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/test_decorator.pyo
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/test_proxy.py
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/test_proxy.pyc
+  /usr/lib/python2.5/site-packages/zope/proxy/tests/test_proxy.pyo
+  /usr/share/doc/Cygwin/python-zope-proxy-3.4.0.README
+  /usr/share/doc/python-zope-proxy-3.4.0/README.txt
+
+------------------
+
+Port Notes:
+
+----- version 3.4.0-1 -----
+Version bump.
+
+----- version 3.3.0-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
